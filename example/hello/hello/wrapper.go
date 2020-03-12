@@ -1,9 +1,10 @@
 package hello
 
 import (
-	log "github.com/p9c/logi"
 	"io"
 	"net/rpc"
+
+	log "github.com/p9c/logi"
 )
 
 type Client struct {

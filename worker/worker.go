@@ -1,10 +1,12 @@
 package worker
 
 import (
-	log "github.com/p9c/logi"
-	"github.com/p9c/stdconn"
 	"os"
 	"os/exec"
+
+	log "github.com/p9c/logi"
+
+	"github.com/p9c/stdconn"
 )
 
 type Worker struct {
